@@ -94,7 +94,7 @@ var projects = {
         "description": "Created an portfolio as part of Udacity's Front-End Web Developer " +
             "Nanodegree.",
         "images": ["images/portfolio.png"]
-            //"url": "http://www.cherylcourt.ca/frogger"
+         "url": "http://prathibha1.github.io/portfolio/"
     }, {
         "title": "card",
         "dates": "october-2016",
