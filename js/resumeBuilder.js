@@ -100,6 +100,19 @@ var projects = {
         "dates": "october-2016",
         "description": "card consists of figure and description using box-models",
         "images": ["images/card1.png"]
+    },{
+        "title": "Resume",
+        "dates": "october-2016",
+        "description": "Creating my resume on the webpage with the use of javascript, html",
+        "images": ["images/resume.png"],
+        "url": "https://prathibha1.github.com/prathiba-resume/"
+    },{
+        "title": "Classic Arcade Game Clone",
+        "dates": "November-2016",
+        "description": "he task was to add entities to a game loop engine and create the classic arcade game frogger."+
+            " Using javaScript, CSS and HTML.",
+        "images": ["images/game.png"],
+        "url": "https://prathibha1.github.com/frogger-game/"
     }],
     "display": function() {
         if (projects.projects.length > 0) {
@@ -109,10 +122,12 @@ var projects = {
                 var formattedProjectTitle = HTMLprojectTitle.replace("%data%", projects.projects[project].title).replace("#", projects.projects[project].url);
                 var formattedProjectDates = HTMLprojectDates.replace("%data%", projects.projects[project].dates);
                 var formattedProjectDescription = HTMLprojectDescription.replace("%data%", projects.projects[project].description);
+                 var formattedProjectUrl = HTMLprojectUrl.replace("%data%", projects.projects[project].url);
 
                 $(".project-entry:last").append(formattedProjectTitle);
                 $(".project-entry:last").append(formattedProjectDates);
                 $(".project-entry:last").append(formattedProjectDescription);
+                $(".project-entry:last").append(formattedProjectUrl);
                 if (projects.projects[project].images.length > 0) {
                     for (var img = 0; img < projects.projects[project].images.length; img++) {
                         var formattedProjectImage = HTMLprojectImage.replace("%data%", projects.projects[project].images[img]);
