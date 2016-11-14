@@ -105,14 +105,14 @@ var projects = {
         "dates": "october-2016",
         "description": "Creating my resume on the webpage with the use of javascript, html",
         "images": ["images/resume.png"],
-        "url": "https://prathibha1.github.com/prathiba-resume/"
+        "url": "https://prathibha1.github.io/prathiba-resume/"
     },{
         "title": "Classic Arcade Game Clone",
         "dates": "November-2016",
         "description": "he task was to add entities to a game loop engine and create the classic arcade game frogger."+
             " Using javaScript, CSS and HTML.",
         "images": ["images/game.png"],
-        "url": "https://prathibha1.github.com/frogger-game/"
+        "url": "https://prathibha1.github.io/frogger-game/"
     }],
     "display": function() {
         if (projects.projects.length > 0) {
